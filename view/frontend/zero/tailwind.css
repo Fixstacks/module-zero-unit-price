@@ -1,0 +1,13 @@
+/* Built into the Zero theme's CSS while Zero_UnitPrice is enabled. */
+
+@layer components {
+    /* "(9,33 € / 1 l)" under the price: small, quiet, never wrapped mid-amount. */
+    .zero-unit-price {
+        margin: 0.125rem 0 0;
+        font-size: var(--text-xs);
+        line-height: 1.4;
+        color: color-mix(in srgb, var(--color-base-content) 65%, transparent);
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+}

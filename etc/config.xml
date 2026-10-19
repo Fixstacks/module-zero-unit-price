@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+    Copyright © 2026 Roman Pasichnyk
+    SPDX-License-Identifier: OSL-3.0 OR AFL-3.0
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <zero_unit_price>
+            <general>
+                <enabled>0</enabled>
+                <small_packs>1</small_packs>
+                <hide_equal>1</hide_equal>
+            </general>
+        </zero_unit_price>
+    </default>
+</config>

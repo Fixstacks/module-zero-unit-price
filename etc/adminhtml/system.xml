@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+    Copyright © 2026 Roman Pasichnyk
+    SPDX-License-Identifier: OSL-3.0 OR AFL-3.0
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="zero_unit_price" translate="label" type="text" sortOrder="47" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Unit Price</label>
+            <tab>zero</tab>
+            <resource>Zero_UnitPrice::config</resource>
+            <group id="general" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Unit Price</label>
+                <comment>The price per kilogram, litre, metre or piece next to every price of a product with a Content and a Unit (Catalog > Products > General), as EU price indication rules ask for goods sold by weight, volume, length or area.</comment>
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="small_packs" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Per 100 g / 100 ml for Small Packs</label>
+                    <comment>Packs of up to 250 g or 250 ml show the price per 100 g or 100 ml; larger ones per kilogram or litre.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="hide_equal" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Hide When It Equals the Price</label>
+                    <comment>A 1 kg pack's price per kilogram is its price: nothing more is shown.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
