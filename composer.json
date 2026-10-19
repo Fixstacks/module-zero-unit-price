@@ -2,7 +2,7 @@
     "name": "fixstacks/module-zero-unit-price",
     "description": "Zero for Magento Open Source: the price per kilogram, litre, metre or piece under every price, as EU price indication rules ask (per 100 g / 100 ml for small packs).",
     "type": "magento2-module",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
