@@ -1,4 +1,4 @@
-# fixstacks/module-zero-unit-price — licensing
+# zerofront/module-zero-unit-price — licensing
 
 Copyright © 2026 Roman Pasichnyk.
 
